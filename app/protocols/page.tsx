@@ -6,7 +6,7 @@ import { Protocol } from '@/types'
 import ProtocolCard from '@/components/protocols/ProtocolCard'
 import SkeletonCard from '@/components/ui/SkeletonCard'
 import SearchFilters from '@/components/search/SearchFilters'
-export const dynamic = 'force-dynamic'
+export const dynamic = 'force-dynamic';
 
 export default function ProtocolsPage() {
   const router = useRouter()
